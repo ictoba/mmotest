@@ -1,0 +1,24 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "files.exclude": {
+            "**/node_modules": true,
+            "**/.vscode": true,
+			"**/dist": true,
+        },
+        "files.watcherExclude": {
+            "**/.git/objects/**": true,
+            "**/.git/subtree-cache/**": true,
+            "**/.hg/store/**": true,
+            "**/node_modules": true,
+        },
+        "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+        "typescript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
+        "typescript.tsserver.maxTsServerMemory": 16384,
+        "explorer.autoReveal": false,
+    }
+}

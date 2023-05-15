@@ -1,0 +1,23 @@
+{
+    "name": "@mmotest/server",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "build": "tsc",
+        "dev": "tsc-watch --onSuccess \"node ./dist/index.js\""
+    },
+    "dependencies": {
+        "@math.gl/core": "^3.6.3",
+        "@mmotest/ecs": "workspace:^",
+        "@mmotest/network": "workspace:^",
+        "@paralleldrive/cuid2": "^2.2.0",
+        "uWebSockets.js": "github:uNetworking/uWebSockets.js#v20.24.0"
+    },
+    "devDependencies": {
+        "@types/node": "^20.1.0",
+        "prettier": "^2.8.8",
+        "tsc-watch": "^6.0.4",
+        "typescript": "^5.0.4"
+    }
+}
